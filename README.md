@@ -5,6 +5,14 @@ It allows organizations to efficiently manage employee records with CRUD operati
 
 ---
 
+## 🌐 Live Demo
+
+🚀 The project is deployed here: [https://employeex.choreoapps.dev/](https://employeex.choreoapps.dev/)  
+
+> ⚠️ Note: It’s hosted on a free tier, so the first load may take **up to a minute** while the server spins up.
+
+---
+
 ## 📌 Features
 
 - ➕ **Add Employees** – Create new employee records with form validation.  
