@@ -102,8 +102,6 @@ The backend will start at `http://localhost:8080`.
 
 ## 📸 Screenshots
 
-You can add screenshots of your project here for better visualization.  
-For example:  
 
 ### Dashboard Page
 ![Dashboard Screenshot](Dashboard.png)
