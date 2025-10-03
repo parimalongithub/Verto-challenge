@@ -24,6 +24,27 @@ It allows organizations to efficiently manage employee records with CRUD operati
 
 ---
 
+## 🛠️ Requirements
+
+Before setting up the project, make sure you have the following installed:
+
+### For Mac / Linux
+- **Java 17** → Check with `java -version`  
+- **Maven** → Check with `mvn -version` (or use `./mvnw` included in project)  
+- **Node.js (v20 or above recommended)** → Check with `node -v`  
+- **npm** (comes with Node.js) → Check with `npm -v`  
+- **Git** → `git --version`
+
+### For Windows
+- Install **Java 17** (set `JAVA_HOME` in system environment variables).  
+- Install **Maven** or use `mvnw.cmd` from the project.  
+- Install **Node.js (v20 or above)** → includes `npm`.  
+- Install **Git for Windows**.
+
+SQLite is already bundled via the JDBC driver, no manual installation required.
+
+---
+
 ## 🏗️ Architecture
 
 The project follows a **frontend-backend-database** structure:
@@ -102,7 +123,6 @@ The backend will start at `http://localhost:8080`.
 
 ## 📸 Screenshots
 
-
 ### Dashboard Page
 ![Dashboard Screenshot](Dashboard.png)
 
@@ -114,8 +134,6 @@ The backend will start at `http://localhost:8080`.
 
 ### Edit Employee Page
 ![Edit Employee Screenshot](Editemployee.png)
-
-
 
 ---
 
