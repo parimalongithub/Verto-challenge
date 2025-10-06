@@ -30,18 +30,49 @@ Before setting up the project, make sure you have the following installed:
 
 ### For Mac / Linux
 - **Java 17** → Check with `java -version`  
-- **Maven** → Check with `mvn -version` (or use `./mvnw` included in project)  
+  - Install using Homebrew:  
+    ```bash
+    brew install openjdk@17
+    ```
+- **Maven** → Check with `mvn -version`  
+  - If not installed:  
+    ```bash
+    brew install maven
+    ```
 - **Node.js (v20 or above recommended)** → Check with `node -v`  
-- **npm** (comes with Node.js) → Check with `npm -v`  
-- **Git** → `git --version`
+  - Install via Homebrew:  
+    ```bash
+    brew install node
+    ```
+- **Git** → Check with `git --version`  
+  - Install with:  
+    ```bash
+    brew install git
+    ```
+
+---
 
 ### For Windows
-- Install **Java 17** (set `JAVA_HOME` in system environment variables).  
-- Install **Maven** or use `mvnw.cmd` from the project.  
-- Install **Node.js (v20 or above)** → includes `npm`.  
-- Install **Git for Windows**.
+1. **Java 17**
+   - Download from [Oracle JDK](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+   - After installation, set `JAVA_HOME` in system environment variables.
 
-SQLite is already bundled via the JDBC driver, no manual installation required.
+2. **Maven**
+   - Download from [Maven Official Site](https://maven.apache.org/download.cgi)
+   - Extract and add the `/bin` path to the system environment variables.
+
+3. **Node.js (v20 or above)**
+   - Download and install from [Node.js Official Site](https://nodejs.org/)
+   - Verify installation:
+     ```bash
+     node -v
+     npm -v
+     ```
+
+4. **Git for Windows**
+   - Download from [Git for Windows](https://git-scm.com/download/win)
+
+SQLite is already bundled via the JDBC driver, so **no manual setup is needed**.
 
 ---
 
